@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    list-style: 1.4;
+    font-weight: 300;
+}
+
+.hero_section {
+    background-image: url(https://as1.ftcdn.net/v2/jpg/02/14/87/96/1000_F_214879686_R3HFJlk6WLr1kcdvy6Q9rtNASKN0BZBS.jpg);
+    min-height: 100vh;
+    background-position: fill;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text_container {
+    color: white;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 54px;
+    padding-left: 160px;
+}
+
+.lg_container {
+    font-size: 37px;
+    font-family: 'Borel', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+}
+img{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: auto;
+    margin-right: auto;
+}
+.card{
+  display: flex;
+  margin: 10px;
+}
+.grid_item{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 10px;
+}
+.card_contain{
+    text-align: center;
+    align-items: center;
+    font-size: small; 
+    
+}
+/* .image_container1{
+   padding-left: 85px;
+}
+.image_container2{
+    padding-left: 120px;
+ }
+ .image_container3{
+    padding-left: 90px;
+ } */
+ .black_box{
+    background-color: black;
+    padding: 20px;
+ }
+ .black_box h4{
+    color: white;
+    text-align: center;
+ }
+ .black_box span{
+    font-size: 60px;
+ }
+ .imformation{
+    display: flex;
+    /* margin-top: 10px; */
+ }
+.contact{
+    border: 2px solid rgb(158, 39, 39);
+    background-color: rgb(158, 39, 39);
+}
+.about{
+    border: 2px solid rgb(24, 112, 24);
+    background-color: rgb(24, 112, 24);
+}
